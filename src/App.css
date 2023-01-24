@@ -7,6 +7,8 @@
 .input{
   text-align: center;
   background-color: white;
+  margin-bottom: 16px;
+  
 }
 .Container{
   display: flex;
@@ -19,18 +21,18 @@
   display: flex;
   flex-wrap: wrap;
   width: 80%;
-  flex: 1;
-  overflow-y: scroll; 
-
 }
 
 .Quadrato{
   border: 1px solid rgb(15, 15, 15);
   flex-basis: 24%; /* il 100% diviso il numero delle colonne che vogliamo mette (4)  Questi flex funzionano solo sul contenuto e non sul contenitore, devono comunque essere flexati*/
   aspect-ratio: 1; /* 1 è sempre quadrato*/
+
 }
 .Centro{
   width: 100%;
   display: flex;
   justify-content: center;
+  flex: 1;
+  overflow-y: scroll; 
 }
