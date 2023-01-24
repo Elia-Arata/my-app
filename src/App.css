@@ -1,38 +1,36 @@
-.App {
+.Cocktail{
   text-align: center;
+  background-color: red;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  text-align: center;
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Container{
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.ContenitoreDeiQuadrati{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  flex: 1;
+  overflow-y: scroll; 
+
+}
+
+.Quadrato{
+  border: 1px solid rgb(15, 15, 15);
+  flex-basis: 24%; /* il 100% diviso il numero delle colonne che vogliamo mette (4)  Questi flex funzionano solo sul contenuto e non sul contenitore, devono comunque essere flexati*/
+  aspect-ratio: 1; /* 1 è sempre quadrato*/
+}
+.Centro{
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
