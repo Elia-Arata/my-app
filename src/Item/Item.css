@@ -1,0 +1,20 @@
+.Item {
+  border-radius: 8px;
+  flex: 1;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Testo {
+  font-weight: bold;
+}
+.Tutto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  aspect-ratio: 1;
+}

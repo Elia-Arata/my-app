@@ -1,6 +1,5 @@
 .Cocktail{
   text-align: center;
-  background-color: red;
   width: 100%;
 }
 
@@ -24,7 +23,6 @@
 }
 
 .Quadrato{
-  border: 1px solid rgb(15, 15, 15);
   flex-basis: 24%; /* il 100% diviso il numero delle colonne che vogliamo mette (4)  Questi flex funzionano solo sul contenuto e non sul contenitore, devono comunque essere flexati*/
   aspect-ratio: 1; /* 1 è sempre quadrato*/
 
